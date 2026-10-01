@@ -25,7 +25,7 @@ def money(value: Decimal, currency: str) -> str:
 
 
 def app_url() -> str:
-    return get_settings().public_app_url.rstrip("/")
+    return get_settings().public_app_url.strip().strip('"').strip("'").rstrip("/")
 
 
 
