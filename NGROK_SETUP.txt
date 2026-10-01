@@ -1,0 +1,11 @@
+FINPLAN Windows - ngrok setup
+
+On first launch, START_FINPLAN.bat asks for your ngrok authtoken.
+You may paste either:
+
+1) the raw authtoken, or
+2) the complete command shown by ngrok, for example:
+   ngrok config add-authtoken YOUR_TOKEN
+
+The launcher strips the command prefix automatically and stores the token locally.
+Do NOT send the token to anyone or put it in chat.
